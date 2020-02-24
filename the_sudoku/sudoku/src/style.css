@@ -1,0 +1,372 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+
+@tailwind utilities;
+
+.no-select {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.focus-not-hover\:bg-transparent:focus:not(:hover) {
+  background-color: transparent;
+}
+
+@keyframes fadeColor {
+  50% {
+    background-color: #90cdf4;
+  }
+}
+
+.fade-color-0 {
+  animation: fadeColor 1s ease-in-out 1 forwards;
+}
+
+.fade-color-100 {
+  animation: fadeColor 1s ease-in-out 100ms 1 forwards;
+}
+
+.fade-color-200 {
+  animation: fadeColor 1s ease-in-out 200ms 1 forwards;
+}
+
+.fade-color-300 {
+  animation: fadeColor 1s ease-in-out 300ms 1 forwards;
+}
+
+.fade-color-400 {
+  animation: fadeColor 1s ease-in-out 400ms 1 forwards;
+}
+
+.fade-color-500 {
+  animation: fadeColor 1s ease-in-out 500ms 1 forwards;
+}
+
+.fade-color-600 {
+  animation: fadeColor 1s ease-in-out 600ms 1 forwards;
+}
+
+.fade-color-700 {
+  animation: fadeColor 1s ease-in-out 700ms 1 forwards;
+}
+
+.fade-color-800 {
+  animation: fadeColor 1s ease-in-out 800ms 1 forwards;
+}
+
+.fade-color-30 {
+  animation: fadeColor 1s ease-in-out 30ms 1 forwards;
+}
+
+.fade-color-60 {
+  animation: fadeColor 1s ease-in-out 60ms 1 forwards;
+}
+
+.fade-color-90 {
+  animation: fadeColor 1s ease-in-out 90ms 1 forwards;
+}
+
+.fade-color-120 {
+  animation: fadeColor 1s ease-in-out 120ms 1 forwards;
+}
+
+.fade-color-150 {
+  animation: fadeColor 1s ease-in-out 150ms 1 forwards;
+}
+
+.fade-color-180 {
+  animation: fadeColor 1s ease-in-out 180ms 1 forwards;
+}
+
+.fade-color-210 {
+  animation: fadeColor 1s ease-in-out 210ms 1 forwards;
+}
+
+.fade-color-240 {
+  animation: fadeColor 1s ease-in-out 240ms 1 forwards;
+}
+
+.fade-color-270 {
+  animation: fadeColor 1s ease-in-out 270ms 1 forwards;
+}
+
+.fade-color-330 {
+  animation: fadeColor 1s ease-in-out 330ms 1 forwards;
+}
+
+.fade-color-360 {
+  animation: fadeColor 1s ease-in-out 360ms 1 forwards;
+}
+
+.fade-color-390 {
+  animation: fadeColor 1s ease-in-out 390ms 1 forwards;
+}
+
+.fade-color-420 {
+  animation: fadeColor 1s ease-in-out 420ms 1 forwards;
+}
+
+.fade-color-450 {
+  animation: fadeColor 1s ease-in-out 450ms 1 forwards;
+}
+
+.fade-color-480 {
+  animation: fadeColor 1s ease-in-out 480ms 1 forwards;
+}
+
+.fade-color-510 {
+  animation: fadeColor 1s ease-in-out 510ms 1 forwards;
+}
+
+.fade-color-540 {
+  animation: fadeColor 1s ease-in-out 540ms 1 forwards;
+}
+
+.fade-color-570 {
+  animation: fadeColor 1s ease-in-out 570ms 1 forwards;
+}
+
+.fade-color-630 {
+  animation: fadeColor 1s ease-in-out 630ms 1 forwards;
+}
+
+.fade-color-660 {
+  animation: fadeColor 1s ease-in-out 660ms 1 forwards;
+}
+
+.fade-color-690 {
+  animation: fadeColor 1s ease-in-out 690ms 1 forwards;
+}
+
+.fade-color-720 {
+  animation: fadeColor 1s ease-in-out 720ms 1 forwards;
+}
+
+.fade-color-750 {
+  animation: fadeColor 1s ease-in-out 750ms 1 forwards;
+}
+
+.fade-color-780 {
+  animation: fadeColor 1s ease-in-out 780ms 1 forwards;
+}
+
+.fade-color-810 {
+  animation: fadeColor 1s ease-in-out 810ms 1 forwards;
+}
+
+.fade-color-840 {
+  animation: fadeColor 1s ease-in-out 840ms 1 forwards;
+}
+
+.fade-color-870 {
+  animation: fadeColor 1s ease-in-out 870ms 1 forwards;
+}
+
+.fade-color-900 {
+  animation: fadeColor 1s ease-in-out 900ms 1 forwards;
+}
+
+.fade-color-930 {
+  animation: fadeColor 1s ease-in-out 930ms 1 forwards;
+}
+
+.fade-color-960 {
+  animation: fadeColor 1s ease-in-out 960ms 1 forwards;
+}
+
+.fade-color-990 {
+  animation: fadeColor 1s ease-in-out 990ms 1 forwards;
+}
+
+.fade-color-1020 {
+  animation: fadeColor 1s ease-in-out 1020ms 1 forwards;
+}
+
+.fade-color-1050 {
+  animation: fadeColor 1s ease-in-out 1050ms 1 forwards;
+}
+
+.fade-color-1080 {
+  animation: fadeColor 1s ease-in-out 1080ms 1 forwards;
+}
+
+.fade-color-1110 {
+  animation: fadeColor 1s ease-in-out 1110ms 1 forwards;
+}
+
+.fade-color-1140 {
+  animation: fadeColor 1s ease-in-out 1140ms 1 forwards;
+}
+
+.fade-color-1170 {
+  animation: fadeColor 1s ease-in-out 1170ms 1 forwards;
+}
+
+.fade-color-1200 {
+  animation: fadeColor 1s ease-in-out 1200ms 1 forwards;
+}
+
+.fade-color-1230 {
+  animation: fadeColor 1s ease-in-out 1230ms 1 forwards;
+}
+
+.fade-color-1260 {
+  animation: fadeColor 1s ease-in-out 1260ms 1 forwards;
+}
+
+.fade-color-1290 {
+  animation: fadeColor 1s ease-in-out 1290ms 1 forwards;
+}
+
+.fade-color-1320 {
+  animation: fadeColor 1s ease-in-out 1320ms 1 forwards;
+}
+
+.fade-color-1350 {
+  animation: fadeColor 1s ease-in-out 1350ms 1 forwards;
+}
+
+.fade-color-1380 {
+  animation: fadeColor 1s ease-in-out 1380ms 1 forwards;
+}
+
+.fade-color-1410 {
+  animation: fadeColor 1s ease-in-out 1410ms 1 forwards;
+}
+
+.fade-color-1440 {
+  animation: fadeColor 1s ease-in-out 1440ms 1 forwards;
+}
+
+.fade-color-1470 {
+  animation: fadeColor 1s ease-in-out 1470ms 1 forwards;
+}
+
+.fade-color-1500 {
+  animation: fadeColor 1s ease-in-out 1500ms 1 forwards;
+}
+
+.fade-color-1530 {
+  animation: fadeColor 1s ease-in-out 1530ms 1 forwards;
+}
+
+.fade-color-1560 {
+  animation: fadeColor 1s ease-in-out 1560ms 1 forwards;
+}
+
+.fade-color-1590 {
+  animation: fadeColor 1s ease-in-out 1590ms 1 forwards;
+}
+
+.fade-color-1620 {
+  animation: fadeColor 1s ease-in-out 1620ms 1 forwards;
+}
+
+.fade-color-1650 {
+  animation: fadeColor 1s ease-in-out 1650ms 1 forwards;
+}
+
+.fade-color-1680 {
+  animation: fadeColor 1s ease-in-out 1680ms 1 forwards;
+}
+
+.fade-color-1710 {
+  animation: fadeColor 1s ease-in-out 1710ms 1 forwards;
+}
+
+.fade-color-1740 {
+  animation: fadeColor 1s ease-in-out 1740ms 1 forwards;
+}
+
+.fade-color-1770 {
+  animation: fadeColor 1s ease-in-out 1770ms 1 forwards;
+}
+
+.fade-color-1800 {
+  animation: fadeColor 1s ease-in-out 1800ms 1 forwards;
+}
+
+.fade-color-1830 {
+  animation: fadeColor 1s ease-in-out 1830ms 1 forwards;
+}
+
+.fade-color-1860 {
+  animation: fadeColor 1s ease-in-out 1860ms 1 forwards;
+}
+
+.fade-color-1890 {
+  animation: fadeColor 1s ease-in-out 1890ms 1 forwards;
+}
+
+.fade-color-1920 {
+  animation: fadeColor 1s ease-in-out 1920ms 1 forwards;
+}
+
+.fade-color-1950 {
+  animation: fadeColor 1s ease-in-out 1950ms 1 forwards;
+}
+
+.fade-color-1980 {
+  animation: fadeColor 1s ease-in-out 1980ms 1 forwards;
+}
+
+.fade-color-2010 {
+  animation: fadeColor 1s ease-in-out 2010ms 1 forwards;
+}
+
+.fade-color-2040 {
+  animation: fadeColor 1s ease-in-out 2040ms 1 forwards;
+}
+
+.fade-color-2070 {
+  animation: fadeColor 1s ease-in-out 2070ms 1 forwards;
+}
+
+.fade-color-2100 {
+  animation: fadeColor 1s ease-in-out 2100ms 1 forwards;
+}
+
+.fade-color-2130 {
+  animation: fadeColor 1s ease-in-out 2130ms 1 forwards;
+}
+
+.fade-color-2160 {
+  animation: fadeColor 1s ease-in-out 2160ms 1 forwards;
+}
+
+.fade-color-2190 {
+  animation: fadeColor 1s ease-in-out 2190ms 1 forwards;
+}
+
+.fade-color-2220 {
+  animation: fadeColor 1s ease-in-out 2220ms 1 forwards;
+}
+
+.fade-color-2250 {
+  animation: fadeColor 1s ease-in-out 2250ms 1 forwards;
+}
+
+.fade-color-2280 {
+  animation: fadeColor 1s ease-in-out 2280ms 1 forwards;
+}
+
+.fade-color-2310 {
+  animation: fadeColor 1s ease-in-out 2310ms 1 forwards;
+}
+
+.fade-color-2340 {
+  animation: fadeColor 1s ease-in-out 2340ms 1 forwards;
+}
+
+.fade-color-2370 {
+  animation: fadeColor 1s ease-in-out 2370ms 1 forwards;
+}
+
+.fade-color-2400 {
+  animation: fadeColor 1s ease-in-out 2400ms 1 forwards;
+}

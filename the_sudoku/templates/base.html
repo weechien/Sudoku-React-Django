@@ -1,0 +1,16 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="{% static 'sudoku/css/style.css' %}">
+  <title>Sudoku</title>
+</head>
+<body>
+  <div class="flex justify-center my-4">
+    {% block content %}
+    {% endblock %}
+  </div>
+</body>
+<script src="static/sudoku/js/index.js"></script>
+</html>
